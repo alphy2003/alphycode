@@ -1,1 +1,7 @@
 print("The program to accept the file name and print its extension")
+filename=input("Enter the filename")
+extension=filename.split(".")
+if(len(filename)>1)
+  print(extension)
+else
+    print("The filename does not exist")
